@@ -97,14 +97,15 @@ git merge <secondaryBranch>
 # to create a new branch in your Repo, and move to it at once
 git checkout -b <branchName>
 
-# to delete a branch inside (your local Repo.)
+# to delete (merged & unmerged) branches respectively, jsut inside (your local Repo.)
 git branch -d <branchName>
+git branch -D <branchName>
 
 # to push a branch to (Remote Repo.)
 git push origin <branchName>
 
-# to delete a branch inside (Remote Repo.)
-git push --delete <branchName>
+# to delete the 2 types of branches just inside (Remote Repo.)
+git push origin --delete <branchName>
 ```
 
 ---
